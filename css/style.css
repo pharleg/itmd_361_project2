@@ -1,34 +1,47 @@
 body {
-  font-family: "Glegoo"", serif;
-  font-optical-sizing: auto;
+  font-family: "Glegoo", serif;
   font-weight: 400;
   font-style: normal;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
 }
 
 header {
   text-align: center;
-  background-color: #de0000;
-  color: #f7f302;
+  background-color: #333;
+  color: #fff;
   padding: 10px;
 }
 
-nav {
-  margin-top: 10px;
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .container {
-  max-width: 100%;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
-.container-fixed {
-  width: 960px;
-  margin: 0 auto;
+section {
+  margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    padding: 0 20px;
-  }
+iframe {
+  display: block;
+  margin: 0 auto;
 }
