@@ -39,12 +39,12 @@ nav ul li a {
 }
 
 a {
-  color:chartreuse;
+  color: chartreuse;
 }
 
 main {
- margin: 0 auto;
- max-width: 800px;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 footer {
