@@ -15,7 +15,7 @@ header {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 10px 0;
+  padding: 1em 0;
 }
 
 nav ul {
@@ -26,7 +26,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 1em;
 }
 
 nav ul li:last-child {
@@ -44,13 +44,14 @@ a {
 
 main {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 50em;
+  padding: 1em;
 }
 
 footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 10px 0;
+  padding: 1em 0;
   margin-top: auto;
 }
